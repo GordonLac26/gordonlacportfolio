@@ -1,0 +1,531 @@
+/*-----GENERAL-----*/
+html {
+  background-color: black;
+  width: 1440px;
+  margin: 0 auto;
+
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0 auto;
+  width: 1200px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a {
+  font-family: sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  color: white;
+}
+
+a {
+  color: white;
+
+}
+
+.Line {
+  height: 2px;
+  background-color: white;
+}
+
+/*-----GENERAL-----*/
+
+/*-------------navBar-------------*/
+.navBar-items p {
+  font-size: 15px;
+}
+
+.navBar ul,
+li,
+a {
+  text-decoration: none;
+}
+
+.navBar ul,
+a.active {
+  text-decoration: underline;
+
+}
+
+.navBar ul,
+a:hover {
+  text-decoration: underline;
+}
+
+.navBar {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  position: sticky;
+  overflow: hidden;
+  top: 0;
+  background-color: rgb(0, 0, 0, .8);
+
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+li {
+  margin-right: 220px;
+  margin: 0;
+}
+
+/*-------------navBar-------------*/
+
+/*--------UNIVERSAL-STYLING-----*/
+
+.piecePage {
+  margin-top: 50px;
+}
+
+.pieceDescription {
+  font-size: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pieceTitle {
+  text-align: left;
+}
+
+.pieceSubTitle {
+  font-size: 16px;
+  margin-top: 2px;
+  opacity: .5;
+}
+
+.pieceAbout {
+  text-align: right;
+  font-size: 16px;
+  margin-top: 4px;
+
+}
+
+.pieceSpacing {
+  width: 1200px;
+  margin-top: 15px;
+}
+
+/*--------UNIVERSAL-STYLING-----*/
+
+
+/*-------------HOME-BODY-------------*/
+
+.homeContent {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 10px;
+  padding-bottom: 60px;
+  padding-top: 50px;
+}
+
+.profileP {
+  width: 600px;
+  height: 600px;
+  background-color: red;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+.homeText {
+  padding-left: 50px;
+  width: 600px;
+  margin-top: 250px;
+}
+
+.homeText h1 {
+  margin-top: 104px;
+  margin-bottom: 0;
+  font-size: 76px;
+
+}
+
+.homeText h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.homeText p {
+  margin-left: 4px;
+  width: 530px;
+}
+
+
+.homePhoto {
+  width: 600px;
+  margin-top: 80px;
+}
+
+
+
+/*-------------HOME-BODY-------------*/
+
+
+/*-------------PORTFOLIO-BODY-------------*/
+
+
+.portLandingMain {
+  min-height: 100dvh;
+
+}
+
+.portLanding {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.smallText {
+  margin-top: 70dvh;
+  font-size: 14px;
+}
+
+.bigText {
+  margin-top: 30dvh;
+  text-align: right;
+  font-size: 60px;
+  line-height: .6em;
+
+  font-weight: 400;
+}
+
+.scrollText {
+  text-align: center;
+  opacity: .6;
+}
+
+.under {
+  margin-top: 45px;
+}
+
+.artworkHeader {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+
+  margin-top: 15px;
+}
+
+.artworkHeader li {
+  text-decoration: none;
+}
+
+
+.view:hover {
+  text-decoration: underline;
+}
+
+
+
+.artworksRow2 {
+  display: grid;
+  grid-template-columns: 35% 50%;
+}
+
+
+
+#magazine {
+  height: 600px;
+  width: 780px;
+  overflow: hidden;
+}
+
+
+
+.artworks h3 {
+  display: inline;
+
+}
+
+.artwork {
+  background-color: white;
+  height: 600px;
+  margin-top: 5px;
+}
+
+#artworksRow2Left {
+  width: 400px;
+}
+
+#artworksRow2Right {
+  width: 780px;
+}
+
+#fullArtworksStyle {
+  width: 1198px;
+  height: 99%;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#fullArtworksStyleNoBorder {
+  width: 1199px;
+  height: 99%;
+
+
+}
+
+
+
+
+/*-------------PORTFOLIO-BODY-------------*/
+
+/*-------------CONTACT-BODY-------------*/
+
+.contactLandingMain {
+  min-height: 20dvh;
+
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
+
+.contactHeader {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  line-height: .01;
+
+}
+
+.contactHeader .Line {
+  margin-top: -60px;
+}
+
+
+
+
+.contactInfo {
+  color: white;
+  line-height: .5;
+  text-align: left;
+  margin-top: 110px;
+
+}
+
+
+
+
+#lets {
+  font-family: sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+
+  font-size: 60px;
+}
+
+#work {
+  font-family: sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  color: white;
+
+  font-size: 130px;
+}
+
+#together {
+  font-family: sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  color: white;
+  margin-left: -20px;
+  padding-top: 15px;
+
+  font-size: 150px;
+}
+
+
+
+.userContact {
+  margin-top: 195px;
+  padding-left: 130px;
+}
+
+.userContact ul {
+
+  list-style: none;
+}
+
+.firstLast ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.answerFields {
+  margin-top: -15px;
+}
+
+.spacer {
+  width: 1px;
+}
+
+.lastName {
+  margin-left: -5px;
+}
+
+.userFirst {
+  background-color: black;
+  opacity: .4;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+
+
+  width: 235px;
+  height: 25px;
+}
+
+.userLast {
+  background-color: black;
+  opacity: .4;
+  border-style: solid;
+  border-width: 1px;
+
+  width: 235px;
+  height: 25px;
+}
+
+
+
+.userEmail {
+  background-color: black;
+  opacity: .4;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+
+  width: 480px;
+  height: 25px;
+}
+
+.userMessage {
+  background-color: black;
+  opacity: .4;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+
+  width: 480px;
+  height: 185px;
+}
+
+.send {
+  margin-top: -5px;
+
+  padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255, .5);
+
+  float: right;
+  margin-right: 8px;
+}
+
+/*-------------CONTACT-BODY-------------*/
+
+/*-------------ABOUT-BODY-------------*/
+
+.aboutContent {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.introduction {
+  margin-top: 300px;
+  font-size: 30px;
+}
+
+.introduction h3 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+
+}
+
+.aboutExperiences {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-content: space-between;
+  align-items: center;
+  gap:17px;
+}
+
+
+.aboutExperiences h3 {
+  font-size: 20px;
+}
+
+.experiences {
+  padding-top: 10px;
+  text-align: left;
+  
+  width: 250px;
+
+}
+
+.me {
+  width: 500px;
+  margin: 0;
+  padding: 0;
+}
+
+.experienceJobs {
+  margin-top: -15px;
+  opacity: .8;
+}
+
+/*-------------ABOUT-BODY-------------*/
+
+
+/*-------------FOOTER-------------*/
+
+.footer {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.footer-items {
+  margin-top: 60px;
+}
+
+/*-------------FOOTER-------------*/
