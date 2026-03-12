@@ -13,8 +13,30 @@ body {
   padding-left: 5px;
   padding-right: 5px;
 
+
 }
 
+body {
+  background: black;
+  color: white;
+  cursor: none; /* hide default cursor */
+}
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  background: white;           /* default cursor color */
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  mix-blend-mode: difference;  /* invert text underneath */
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+a:hover {
+  cursor: none;
+}
 
 h1,
 h2,
